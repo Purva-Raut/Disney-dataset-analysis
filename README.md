@@ -11,13 +11,21 @@ Steps:
 #Data Preparation and Cleaning
 
 1.Import the dataset and convert it into a dataframe using pandas. #pd.read_csv
+
 2.Check how the dataframe looks like. #df.head()
+
 3.Check how many rows and columns in the dataframe. #df.shape
+
 4.Check non-null values and datatypes of of the columns in the dataframe. #df.info()
+
 5.Check statistical information of the columns in the dataframe. #df.describe
+
 6.Check null values count. #df.isna().sum()
+
 7.Data wrangling- converting columns to correct datatype. eg: pd.to_datetime(df['date_added'])
+
 8.Treating the missing values-dropna, fillna 
+
 9.Checking and treating duplicate entries.
 
 #Exploratory Analysis and Visualization
